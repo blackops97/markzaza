@@ -1,48 +1,46 @@
-#DevProx 🔱
-# channel [ၣ℡ PROX DEV🔵](https://telegram.me/DEV_PROX)
-👮 - #DEV 🏻-  @IQ_ABS
-* * *
+# [zaza](https://telegram.me/wounds1)
 
+#طريقة التنصيب
 
-# التنصيب
-#1
+#افتح تيرمنال وخلي هاي
+
 sudo apt-get update
 
-#2
+#1
+
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 
-#3
-sudo apt-get upgrade
+#2
+
+git clone https://github.com/wounds2/markzaza.git
+
+#3 
+
+cd markzaza
 
 #4
-git clone https://github.com/iqabs/DevProx.git
-
-#5
-cd DevProx
-
-#6
 chmod +x launch.sh
 
-#7
+#5
+
 ./launch.sh install
 
-#8
-./launch.sh انتضر شويه وراح يطلب رقمه خليه
-* * *
+#6
 
-### Realm configuration
+./launch.sh 
 
-After you run the bot for first time, send it !id. Get your ID and stop the bot.
 
-تفتح هاذا المسار ./data/config.lua 
-  sudo_users = {
-    YourID
-  }
-Then restart the bot.
-* * *
+#تنتضر يطلب رقم  تخلي وانوب تخلي كود وتصعد نفسك مطور , وبعدها
 
-# Support and development [ၣ℡ PROX DEV🔵](https://telegram.me/DEV_PROX) 🐾
+#بعدها تجي هنا @C9_pro
 
-For managing on Telegram.
-ADD [@iMardona](https://telegram.me/iMardona) ❤️
-Subscribe to Source channel [ၣ℡ PROX DEV🔵](https://telegram.me/DEV_PROX) 
+#تلكة ملف اسمة lua-tg.c
+
+#تخلي بلفولدر مال tg
+بعدها تطلعلك لافته تدوس الخضرة انوب تروح تفتح ترمنال جديد وتخلي هلاكواد بتلسلسل
+cd zaza
+
+cd tg
+
+make
+
