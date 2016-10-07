@@ -249,7 +249,7 @@ function create_config( )
     "helpen",
     "save"
     },
-    sudo_users = { 218385683,0,tonumber(our_id)},--Sudo users
+    sudo_users = { 112235430,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[🚏- اهلا بك عزيزي WeLcOmE
 سورس  زازا ( zaza )
@@ -263,9 +263,9 @@ Channel sors 🏈  :
 
 🛰 - رابط السورس :
 https://github.com/wounds2/markzaza : link in githup]],
-    help_text = [[ْDEV @IQ_ABS]],
-	help_text_super =[[ْDEV @IQ_ABS]],
-help_text_realm = [[ْDEV @IQ_ABS]],
+    help_text = [[ْDEV @wounds1]],
+	help_text_super =[[ْDEV @wounds1]],
+help_text_realm = [[ْDEV @wounds1]],
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
