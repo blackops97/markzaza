@@ -232,58 +232,37 @@ function create_config( )
     "whitelist",
     "msg_checks",
     "plugins",
-    "send",
-    "lk_fwd",
-    "lk_media",
-    "welcome",
-    "help",
-    "lk_tag",
-    "lk_username",
-    "lk_join",
-    "lk_english",
-    "lk_emoji",
-    "he1",
-    "he2",
-    "he3",
-    "he4",
-    "hedev",
-    "time",
-    "tagall",
-    "textphoto",
-    "sticker23",
-    "rebot",
-    "leave",
-    "block",
-    "dev",
-    "voice",
-    "weather",
-    "translate",
-    "writer",
-    "deltmsg",
-    "me",
-    "info",
-    "azan",
-    "run",
-    "info",
-    "iq_abs",
-    "remsg",
-    "run1",
-    "redis"
+    "setwelcome",
+    "anti-bot",
+    "expiretime",
+    "getwelcome",
+    "delall",
+    "cleanmm",
+    "chatter",
+    "filter",
+    "lock_fwd",
+    "antiemoji",
+    "antitag",
+    "antiuser",
+    "antien",
+    "helpar",
+    "helpen",
+    "save"
     },
     sudo_users = { 218385683,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[🚏- اهلا بك عزيزي WeLcOmE
-سورس ديف بروكس ( DevProx )
+سورس  زازا ( zaza )
 
 〰 ➗ 〰 ✖️ 〰 ➕ 〰
 Developer ⛳️🏒  :
-🔸 - @IQ_ABS
+🔸 - @wounds1
 Channel sors 🏈  :
-🔹 - @DEV_PROX
+🔹 - @C9_pro
 〰 ➗ 〰 ✖️ 〰 ➕ 〰
 
 🛰 - رابط السورس :
-https://github.com/iqabs/DevProx.git : link in githup]],
+https://github.com/wounds2/markzaza : link in githup]],
     help_text = [[ْDEV @IQ_ABS]],
 	help_text_super =[[ْDEV @IQ_ABS]],
 help_text_realm = [[ْDEV @IQ_ABS]],
